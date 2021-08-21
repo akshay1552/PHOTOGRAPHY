@@ -1,0 +1,136 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+@import "~mdb-ui-kit/css/mdb.min.css";
+
+header {
+  color: white;
+  background-image: url("banner.jfif");
+  background-size: cover;
+  background-position: center;
+  height: 766px;
+  position: relative;
+  font-family: "Joy Multiplication", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photography {
+  padding-top: 10%;
+  padding: 30px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+.card .card-body {
+  padding: 1rem 1rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+p {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
+h4 {
+  line-height: 0.2 !important;
+}
+
+.profile {
+  margin-top: 16px;
+  margin-left: 11px;
+}
+
+.profile-pic {
+  width: 58px;
+}
+
+.cust-name {
+  font-size: 18px;
+}
+
+.cust-profession {
+  font-size: 10px;
+}
+
+.items {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
+.slick-slide {
+  margin: 10px;
+}
+
+.btn-funky-moon {
+  background: #a770ef;
+  background: -webkit-linear-gradient(145deg, #9936cf, #2863e9);
+  background: linear-gradient(145deg, #9936cf, #2863e9);
+  color: #fff;
+  border: 3px solid #eee;
+}
+
+.btn-rounded {
+  border-radius: 35px;
+}
+
+.contact {
+  padding: 4%;
+}
+.col-md-3 {
+  background: #9936cf;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info {
+  margin-top: 10%;
+}
+.contact-info img {
+  margin-bottom: 15%;
+}
+.contact-info h2 {
+  margin-bottom: 10%;
+}
+.col-md-9 {
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form button {
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus {
+  box-shadow: none;
+}
